@@ -10,14 +10,16 @@ public class ProductCSVReader {
         String line;
         String csvSplitBy = ",";
         List<Product> productList = new ArrayList<>();
+        //read CSV file using BufferReader
         try (BufferedReader br = new BufferedReader(new InputStreamReader(
                 ProductCSVReader.class.getResourceAsStream("/productMockData.csv")))) {
 
             br.readLine();
             while ((line = br.readLine()) != null) {
+                //if line is empty continue
                 if (line.trim().isEmpty()) continue;
                 String[] productData = line.split(csvSplitBy);
-
+// if the num of columns is not equal to 5 print warning and continue
                 if (productData.length != 5) {
                     System.out.println("Invalid CSV line: " + line);
                     continue;
