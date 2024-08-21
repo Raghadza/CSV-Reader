@@ -26,7 +26,7 @@ To run this project, you need to have the following installed on your machine:
 ### Setup Instructions
 
 1. *Clone the Repository*:
-
+   ``` https://github.com/Raghadza/CSV-file-Reader.git
 
 
 2. *Navigate to the Project Directory*:
@@ -42,8 +42,7 @@ src/ProductCSVReader.java
 
 2. *Run the Application*:
 - In your IDE, right-click on ProductCSVReader.java and select Run or Debug.
-- Alternatively, you can run the application from the command line:
-  ```
+- Alternatively, you can run the application from the command line
 
 3. *View the Output*:
 - The application will read the productMockData.csv file from the resources folder, parse it, and print the details of each product to the console.
