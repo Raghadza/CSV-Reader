@@ -26,7 +26,8 @@ To run this project, you need to have the following installed on your machine:
 ### Setup Instructions
 
 1. *Clone the Repository*:
-   ``` https://github.com/Raghadza/CSV-file-Reader.git
+   ```
+   https://github.com/Raghadza/CSV-file-Reader.git
 
 
 2. *Navigate to the Project Directory*:
